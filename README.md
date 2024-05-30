@@ -70,7 +70,4 @@ name (VARCHAR) - The title of the book
 edition (INT) - The author of the book
 price (DECIMAL) - The price of the book
 
-## License
-This project is licensed under the MIT License. See the LICENSE file for details.
-
 By linking directly to the download page, you ensure that users can easily find and download the software required to run your application.
