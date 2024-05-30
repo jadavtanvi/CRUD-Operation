@@ -35,20 +35,20 @@ Open phpMyAdmin by visiting http://localhost/phpmyadmin/ in your web browser.
 1. **Database Connection**
 
 Open the config.php file and update the database connection details:
-<?php
-$servername = "localhost";
-$username = "root"; // Default XAMPP MySQL username
-$password = ""; // Default XAMPP MySQL password
-$dbname = "program1";
-
-// Create connection
-$conn = new mysqli($servername, $username, $password, $dbname);
-
-// Check connection
-if ($conn->connect_error) {
-    die("Connection failed: " . $conn->connect_error);
-}
-?>
+      <?php
+      $servername = "localhost";
+      $username = "root"; // Default XAMPP MySQL username
+      $password = ""; // Default XAMPP MySQL password
+      $dbname = "program1";
+      
+      // Create connection
+      $conn = new mysqli($servername, $username, $password, $dbname);
+      
+      // Check connection
+      if ($conn->connect_error) {
+          die("Connection failed: " . $conn->connect_error);
+      }
+      ?>
 ## Usage
 1. **Perform CRUD Operations**
 
