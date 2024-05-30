@@ -50,11 +50,7 @@ if ($conn->connect_error) {
 }
 ?>
 ## Usage
-1. **Access the Application**
-
-Open your web browser and go to http://localhost/bookshop-crud/.
-
-2. **Perform CRUD Operations**
+1. **Perform CRUD Operations**
 
 To add a new book, fill out the form on the homepage and click "Add Book".
 To view all books, navigate to the "Books List" page.
@@ -62,7 +58,7 @@ To Search a book, click the "Search" button.
 To update a book, click the "Update" button next to the book you want to update, make your changes, and click "Update".
 To delete a book, click the "Delete" button next to the book you want to delete.
 
-3. **Database Structure**
+2. **Database Structure**
 The database contains a single table named books with the following structure:
 
 id (INT) - Primary Key, Auto Increment
