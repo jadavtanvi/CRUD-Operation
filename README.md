@@ -35,6 +35,7 @@ Open phpMyAdmin by visiting http://localhost/phpmyadmin/ in your web browser.
 1. **Database Connection**
 
 Open the config.php file and update the database connection details:
+      ```
       <?php
       $servername = "localhost";
       $username = "root"; // Default XAMPP MySQL username
@@ -49,6 +50,7 @@ Open the config.php file and update the database connection details:
           die("Connection failed: " . $conn->connect_error);
       }
       ?>
+      ```
 ## Usage
 1. **Perform CRUD Operations**
 
